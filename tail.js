@@ -6,3 +6,10 @@ function tail(array){
 
     return tailArray;
 }
+
+
+
+function last(array){
+
+    return array[array.length-1];
+}
