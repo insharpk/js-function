@@ -17,3 +17,11 @@ function last(array){
 function head(array){
     return array[0];
 }
+
+function initial(array){
+    const copiedArray=[...array];
+
+    copiedArray.pop();
+
+    return copiedArray;
+}
