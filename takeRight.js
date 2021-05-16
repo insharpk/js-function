@@ -6,7 +6,7 @@ function takeRight(array,n=1){
   if(n>array.length){
   return [...array];
   }
-  const takenArray[];
+  const takenArray=[];
   
   for(let i=0;i<array.length;i++){
     const indexFromRight=array.length-(1+i);
