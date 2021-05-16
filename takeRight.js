@@ -8,7 +8,7 @@ function takeRight(array,n=1){
   }
   const takenArray=[];
   
-  for(let i=0;i<array.length;i++){
+  for(let i=0;i<n;i++){
     const indexFromRight=array.length-(1+i);
     takenArray.unshift(array[indexFromRight]);
   }
