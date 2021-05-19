@@ -1,6 +1,6 @@
 findIndex(array,predicate,fromIndex=0){
   for(let i=fromIndex;i<array.length;i++){
-    const value =array[i]
+    const value =array[i];
     if(predicate(value)){
       return i;
     }
